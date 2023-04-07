@@ -6,7 +6,7 @@
         private $uf;
         private $codigo_postal;
         
-        // sets
+        // Sets
         function setLogradouro($logradouro){
             $this->logradouro = $logradouro;
         }
@@ -20,7 +20,7 @@
             $this->codigo_postal = $codigo_postal;
         }
         
-        // gets
+        // Gets
         function getLogradouro () {
             return $this->logradouro;
         }

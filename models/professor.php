@@ -4,10 +4,13 @@
         private $codigo;
         private $nome;
         private $email;
-        private $telefone;
+        private $telefone = [];
         private $endereco;
 
-        // sets
+        // Sets
+        function setCodigo($codigo){
+            $this->codigo = $codigo;
+        }
         function setNome($nome){
             $this->nome = $nome;
         }
@@ -21,7 +24,10 @@
             $this->endereco = $endereco;
         }
 
-        // gets
+        // Gets
+        function getCodigo () {
+            return $this->codigo;
+        }
         function getNome () {
             return $this->nome;
         }
